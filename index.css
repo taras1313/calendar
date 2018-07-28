@@ -1,0 +1,98 @@
+body {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+body>div {
+    border: 1px solid black;
+}
+
+div {
+    margin: 1px;
+    box-sizing: border-box;
+    word-spacing: -4px;
+}
+
+/*head block*/
+
+body>div>div:first-child>div:first-child {
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+div>div:first-child>div:nth-child(2) div {
+    display: inline-block;
+    width: 139.7px;
+    text-align: left;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+body>div>div:first-child>div:nth-child(2) {
+    text-align: center;
+}
+
+/*main block*/
+
+body>div>div:nth-child(2)>div:nth-child(1n+1) {
+    text-align: right;
+}
+
+body>div>div:nth-child(2)>div>div {
+    display: inline-block;
+    height: 26px;
+    width: 139.7px;
+    border: 1px solid black;
+}
+/*body>div>div:nth-child(2)>div:nth-child(1n+2)>*/
+body>div>div:nth-child(2)>div:nth-child(even)>div {
+    width: 139.7px;
+    height: 115px;
+    border: 1px solid black;
+}
+
+/*head colors*/
+
+body>div>div:first-child>div:first-child {
+    background: lightgray;
+}
+
+div>div:first-child>div:nth-child(2) div {
+    background: #eddada;
+}
+
+div>div:first-child>div:nth-child(2) div:nth-child(6) {
+    background: #f1bcbb;
+}
+
+div>div:first-child>div:nth-child(2) div:last-child {
+    background: #f49796;
+}
+
+/*div>div:first-child>div:nth-child(2)>div:nth-child(2n+2) {*/
+/*    background: red;*/
+/*}*/
+
+/*main colors*/
+
+div>div:nth-child(2)>div div {
+    background: #eddada;
+}
+
+div>div:nth-child(2)>div>div:nth-child(6) {
+    background: #f1bcbb;
+}
+
+div>div:nth-child(2)>div>div:last-child {
+    background: #f49796;
+}
+
+div>div:nth-child(2)>div:first-child>div:first-child, div>div:nth-child(2)>div:first-child>div:nth-child(2), div>div:nth-child(2)>div:nth-child(2)>div:first-child, div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2), div>div:nth-child(2)>div:nth-child(9)>div:nth-child(6), div>div:nth-child(2)>div:nth-child(odd)>div:last-child {
+    background: #b8b6b6;
+}
+
+
+
+/*звідки вертикальні люфти між малим і великим блоком*/
