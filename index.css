@@ -35,19 +35,19 @@ body>div>div:first-child>div:nth-child(2) {
 }
 
 /*main block*/
-
-body>div>div:nth-child(2)>div:nth-child(1n+1) {
+/*!important*/
+div>div:nth-child(2)>div:nth-child(1n+1) {
     text-align: right;
 }
 
-body>div>div:nth-child(2)>div>div {
+div>div:nth-child(2)>div>div {
     display: inline-block;
     height: 26px;
     width: 139.7px;
     border: 1px solid black;
 }
-/*body>div>div:nth-child(2)>div:nth-child(1n+2)>*/
-body>div>div:nth-child(2)>div:nth-child(even)>div {
+
+div>div:nth-child(2)>div:nth-child(even)>div {
     width: 139.7px;
     height: 115px;
     border: 1px solid black;
@@ -55,7 +55,7 @@ body>div>div:nth-child(2)>div:nth-child(even)>div {
 
 /*head colors*/
 
-body>div>div:first-child>div:first-child {
+div>div:first-child>div:first-child {
     background: lightgray;
 }
 
@@ -71,7 +71,7 @@ div>div:first-child>div:nth-child(2) div:last-child {
     background: #f49796;
 }
 
-/*div>div:first-child>div:nth-child(2)>div:nth-child(2n+2) {*/
+/*div>div:first-child>div:nth-child(2)>div:nth-child(1n+2) {*/
 /*    background: red;*/
 /*}*/
 
